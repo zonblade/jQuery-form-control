@@ -19,7 +19,7 @@ very simple!
 <script>
   $(document).on('click','#sendForm',function(e){
     e.preventDefault();
-    form_control({
+    form_handle({
       api_url : '/path/to/api',
       method  : 'POST',
       form    : '#myForm',
