@@ -14,6 +14,7 @@ very simple!
   <button id="sendForm">Send</button>
 </form>
 
+<script src="/path/to/jQuery.js"></script>
 <script src="/path/to/JFControl.js"></script>
 <script>
   $(document).on('click','#sendForm',function(e){
