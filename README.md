@@ -4,6 +4,8 @@ Plugin to handle form, support uploading files and build in progress bar
 how to use?
 very simple!
 ```html
+<link rel="stylesheet" href="/path/to/JFControl.css">
+
 <form id="myForm" enctype="multipart/form-data">
   <input name="input_1">
   <input type="file" name="input_file">
