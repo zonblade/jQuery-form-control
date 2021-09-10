@@ -47,7 +47,6 @@ function form_handle(data) {
                 progressElem.removeClass('is-success');
                 progressElem.addClass('is-danger');
                 try {
-                    var res = JSON.parse(res);
                     reject(res);
                 } catch (err) {
                     reject(res);
@@ -59,9 +58,6 @@ function form_handle(data) {
                     var res = JSON.parse(res);
                     resolve(res);
                 } catch (err) {
-                    progressElem.removeClass('is-success');
-                    progressElem.addClass('is-danger');
-                    progressElem.attr('value', 0);
                     reject(res);
                 }
             },
