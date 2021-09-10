@@ -1,0 +1,11 @@
+.is-warning {
+  background-color:orange;
+}
+
+.is-danger {
+  background-color:red;
+}
+
+.is-sucess {
+  background-color:lime;
+}
