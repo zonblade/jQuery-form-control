@@ -4,7 +4,7 @@ Plugin to handle form, support uploading files and build in progress bar
 how to use?
 very simple!
 
-`untuk yang menggunakan Bootstrap harap disesuaikan sendiri codingan js nya!`
+`added JSControl versi bootstrap`
 
 ```html
 <link rel="stylesheet" href="/path/to/JFControl.css">
