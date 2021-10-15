@@ -4,7 +4,11 @@ Plugin to handle form, support uploading files and build in progress bar
 how to use?
 very simple!
 
-`added JFControl versi bootstrap`
+`added JFControl bootstrap version`
+
+`added JFControl bootstrap version`
+
+`added JFControl mini version`
 
 ```html
 <link rel="stylesheet" href="/path/to/JFControl.css">
